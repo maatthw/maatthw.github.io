@@ -25,7 +25,7 @@ let wordList = [
     ["s", "t", "o", "p", "s"]
 ];
 
-const word = array[Math.floor(Math.random() * array.length)];
+const word = wordList[Math.floor(Math.random() * array.length)];
 
 function displayLetter(letter, box) {
     let outputDiv = document.getElementById(box);

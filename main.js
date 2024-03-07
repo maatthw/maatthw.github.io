@@ -37,7 +37,7 @@ function displayLetter(letter, box) {
     outputDiv.classList.add("box-pop");
 
     setTimeout(() => {
-        outpitDiv.classList.remove("box-pop");
+        output.classList.remove("box-pop");
     }, 300);
 
     outputDiv.textContent = letter;

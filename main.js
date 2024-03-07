@@ -2,7 +2,30 @@ let row = 1;
 let col = 1;
 let canplay = true;
 
-word = ["b", "r", "a", "i", "n"];
+let wordList = [
+    ["b", "r", "a", "i", "n"],
+    ["t", "i", "g", "e", "r"],
+    ["h", "e", "a", "r", "t"],
+    ["s", "p", "i", "r", "e"],
+    ["c", "o", "a", "c", "h"],
+    ["s", "t", "o", "n", "e"],
+    ["f", "l", "a", "m", "e"],
+    ["s", "w", "e", "e", "t"],
+    ["g", "l", "o", "v", "e"],
+    ["c", "r", "a", "f", "t"],
+    ["s", "t", "a", "r", "t"],
+    ["b", "r", "e", "a", "d"],
+    ["s", "h", "i", "p", "s"],
+    ["s", "t", "o", "r", "m"],
+    ["c", "o", "u", "n", "t"],
+    ["s", "t", "o", "p", "s"],
+    ["s", "t", "a", "r", "s"],
+    ["s", "t", "o", "n", "e"],
+    ["s", "t", "o", "r", "y"],
+    ["s", "t", "o", "p", "s"]
+];
+
+const word = array[Math.floor(Math.random() * array.length)];
 
 function displayLetter(letter, box) {
     let outputDiv = document.getElementById(box);
